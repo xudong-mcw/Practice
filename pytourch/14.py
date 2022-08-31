@@ -19,3 +19,7 @@ def main():
 
     x, label = iter(cifar_train).next()
     print('x:',x.shape,'lable:',label.shape)
+
+
+if __name__ == '__main__':
+    main()
