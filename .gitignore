@@ -15,3 +15,12 @@ mnist/MNIST/raw/train-images-idx3-ubyte
 mnist/MNIST/raw/train-images-idx3-ubyte.gz
 mnist/MNIST/raw/train-labels-idx1-ubyte
 mnist/MNIST/raw/train-labels-idx1-ubyte.gz
+cifar/cifar-10-python.tar.gz
+cifar/cifar-10-batches-py/batches.meta
+cifar/cifar-10-batches-py/data_batch_1
+cifar/cifar-10-batches-py/data_batch_2
+cifar/cifar-10-batches-py/data_batch_3
+cifar/cifar-10-batches-py/data_batch_4
+cifar/cifar-10-batches-py/data_batch_5
+cifar/cifar-10-batches-py/readme.html
+cifar/cifar-10-batches-py/test_batch
