@@ -26,14 +26,16 @@ class Lenet5(nn.Module):
         print('conv out:',out.shape)
 
         self.criteon = nn.CrossEntropyLoss()
-
+        
         
     def forward(self,x):
         batchsz = x.size(0)
         x = self.conv_unit(x)
         x = x.view(batchsz,16*5*5)
-        #logits = self.fc_unit(x)
+        logits = self.fc_unit(x)
         #pred = F.softmax(logits,dim=1)
+        #loss = self.criteon(logits,y)
+        return logits
 
 def main():
     net = Lenet5()

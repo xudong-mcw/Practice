@@ -24,3 +24,5 @@ cifar/cifar-10-batches-py/data_batch_4
 cifar/cifar-10-batches-py/data_batch_5
 cifar/cifar-10-batches-py/readme.html
 cifar/cifar-10-batches-py/test_batch
+pytourch/__pycache__/lenet5.cpython-39.pyc
+pytourch/__pycache__/resnet.cpython-39.pyc
