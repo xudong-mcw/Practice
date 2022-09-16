@@ -14,7 +14,7 @@ def loss(x, y):
     return (y_pred - y)**2
  
  
-# 穷举法
+
 w_list = []
 mse_list = []
 for w in np.arange(0.0, 4.1, 0.1):
